@@ -1,0 +1,102 @@
+db.employees.insertMany([
+    {
+        name: "GG",
+        age: 20,
+        department: "Developer",
+        gender: "male",
+        tasks: [
+            {
+                tastId: 1,
+                desc: "Create header"
+            },
+            {
+                tastId: 2,
+                desc: "Create footer"
+            },
+            {
+                tastId: 3,
+                desc: "Update login"
+            }
+        ],
+        position: "Junior",
+        project: {
+            projectId: 1,
+            work: "Frontend Developer"
+        }
+    },
+    {
+        name: "Pari",
+        age: 19,
+        department: "Developer",
+        gender: "female",
+        tasks: [
+            {
+                tastId: 1,
+                desc: "Create header"
+            }
+        ],
+        position: "Junior",
+        project: {
+            projectId: 1,
+            work: "Frontend Developer"
+        }
+    },
+    {
+        name: "Ksh",
+        age: 24,
+        department: "Developer",
+        gender: "male",
+        tasks: [
+            {
+                tastId: 2,
+                desc: "Create footer"
+            },
+            {
+                tastId: 3,
+                desc: "Update login"
+            }
+        ],
+        position: "Intern",
+    },
+    {
+        name: "Mad",
+        age: 21,
+        department: "Tester",
+        gender: "female",
+        tasks: [
+            {
+                tastId: 1,
+                desc: "Test e-com website"
+            },
+            {
+                tastId: 2,
+                desc: "Test login page"
+            }
+        ],
+        position: "Senior",
+    },
+    {
+        name: "Khu",
+        age: 19,
+        department: "Designer",
+        gender: "female",
+        position: "Intern",
+    },
+    {
+        name: "Nik",
+        age: 22,
+        department: "Developer",
+        gender: "male",
+        tasks: [
+            {
+                tastId: 1,
+                desc: "Add users database"
+            },
+            {
+                tastId: 2,
+                desc: "Remove bugs in contact us form"
+            }
+        ],
+        position: "Senior",
+    }
+])
